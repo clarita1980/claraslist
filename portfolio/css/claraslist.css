@@ -1,0 +1,240 @@
+body, html {
+  background: #f4f4f4;
+}
+
+.circle {
+  border-radius: 150px;
+  overflow: hidden;
+  border: 5px solid #cccccc;
+  margin-bottom: 15px;
+  position: relative;
+  display: block;
+  height: 240px;
+  width: 240px;
+}
+.circle span {
+  position: absolute;
+  background: rgba(255,255,255,0.90);
+  top: 140px;
+  width: 240px;
+  padding: 10px;
+  display: block;
+  text-align: center;
+}
+.project p {
+  color: #333333;
+  text-align: left;
+  text-decoration: none;
+  font-size: 15px;
+}
+.project a:hover {
+  color: #333333;
+  text-align: left;
+  text-decoration: none;
+}
+.project {
+  text-align: center;
+  font-weight: bold;
+}
+.project a {
+  display: block;
+  width: 240px;
+  height: 300px;
+}
+
+.rounded {
+  border-radius: 150px;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+}
+.rounded p {
+  display: none;
+}
+.rounded p.linker {
+  display: block;
+  text-align: center;
+}
+.rounded a span {
+  display: none;
+}
+
+.avatar {
+  border-radius: 40px;
+  margin-right: 15px;
+  float: left;
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 7px #999999;
+  overflow: hidden;
+}
+.header {
+  margin: 15px 0 0 0;
+}
+.header h2 {
+  margin: 5px 0;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 38px;
+  color: #333333;
+  position: relative;
+  font-weight: bold;
+  color: #333333;
+}
+.header h3 {
+  margin-left: 3px;
+  font-size: 20px;
+  font-weight: 200;
+  position: relative;
+  color: #666666;
+  float: left;
+}
+.panel h3 {
+  line-height: 1.4em;
+}
+.panel h3 small {
+  clear: both;
+  display: block;
+  position: relative;
+  top: 10px;
+  font-weight: normal;
+}
+a:link, a:visited, a:link small, a:visited small {
+  color: #ff3000;
+}
+a:hover, a:active, a:hover small, a:active small {
+  color: #ff3000;
+  text-decoration: underline;
+}
+ul {
+  list-style-position: inside;
+}
+.project-thumb img {
+  display: block;
+  margin: 0 auto;
+}
+.project-thumb {
+  text-align: left;
+  font-size: 14px;
+  margin: 0;
+  font-weight: bold;
+}
+.project-thumb a {
+  font-size: 20px;
+  font-weight: normal;
+}
+.project-thumb span {
+  clear: both; display: block;
+  margin-top: 15px;
+}
+
+
+.deliverable-thumb img {
+  display: block;
+  margin: 0 auto;
+  max-height: 100px;
+}
+.deliverable-thumb {
+  text-align: center;
+  font-size: 14px;
+  margin: 0;
+  font-weight: bold;
+}
+.deliverable-thumb a {
+  font-size: 18px;
+  font-weight: normal;
+}
+.deliverable-thumb span {
+  clear: both; display: block;
+  margin-top: 15px;
+}
+
+
+
+.panel-white {
+  background: #ffffff;
+  margin-top: 15px;
+}
+.panel-white h1 {
+  font-size: 34px;
+  line-height: 42px;
+}
+.panel-white h4 {
+  font-size: 20px;
+}
+.panel-white ul {
+  padding: 0 25px 0 3px;
+}
+.panel-white ul li {
+  margin: 5px 0 10px 0;
+}
+#the-canvas {
+  margin: 0 0 15px 0;
+}
+.pdf-embed-container {
+  margin: 10px 0 0 0;
+  border: 1px solid #cccccc;
+  padding: 9px;
+  background: #e3e3e3;
+}
+.pdf-embed {
+  border: 1px solid #cccccc;
+  margin-bottom: 10px;
+}
+.pdf-embed-controls {
+margin-bottom: 10px;
+}
+.pdf-embed-controls button {
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  font-weight: normal;
+}
+.pdf-embed-controls span {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .header h2 { 
+    font-size: 20px;
+    margin: 10px 0 5px 0;
+    line-height: 24px;
+  }
+  .header h3 {
+    font-size: 12px;
+    margin: 0;
+    line-height: 12px;
+    display: inline-block;
+  }
+}
+
+.pdf-embed {
+  max-width:575px;
+}
+.large-4.columns {
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+  #smallplayer {
+    display: block;
+  }
+  #largeplayer {
+    display: none;
+  }
+  .deliverables {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #smallplayer {
+    display: none;
+  }
+  #largeplayer {
+    display: block;
+  }
+  blockquote {
+    font-size: 150% !important;
+  }
+}
