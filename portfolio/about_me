@@ -1,9 +1,9 @@
- <!DOCTYPE html>
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
 
 <head>
-  <meta charset="utf-8" />
+	<meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
   <title>UX Research and Ethnographic Research - Clara Gonzalez Sueyro</title>
   <link rel="stylesheet" href="css/normalize.css" />
@@ -27,26 +27,29 @@
 </head>
 <body>
 
-  <div class="row">
-    <div class="large-12 columns header">
+	<div class="row">
+		<div class="large-12 columns header">
       <a href="/portfolio/portfolio.html"><div class="avatar"><img src="img/clara-avatar.png" align="left" /></div></a>
-      <h2><a href="/portfolio/portfolio.html">Clara Gonzalez Sueyro</a></h2>
+			<h2><a href="/portfolio/portfolio.html">Clara Gonzalez Sueyro</a></h2>
       <h3>User Experience and Ethnographic Research Specialist</h3>
       <br /><br /><br />
-    </div>
-  </div>
+		</div>
+	</div>
 
-  <div class="row">
-    <div class="large-8 columns">
-      <!-- Grid Example -->
-      <div class="row">
-        <div class="large-12 columns">
+	<div class="row">
+		<div class="large-8 columns">
+			<!-- Grid Example -->
+			<div class="row">
+				<div class="large-12 columns">
           <div class="panel panel-white">
-            <h3>From Anthropology to Entrepreneurship.<h3> From Argentina to San Francisco.</h3>
+            <h1>From Anthropology to Entrepreneurship. From Argentina to San Francisco</h1>
             <p>
-              Born in January 1980 - Mar Del Plata, Buenos Aires. Argentina. <p> 
+              January 1980 - Mar Del Plata, Buenos Aires. Argentina. <p> 
               <hr />
-              <img src="img/clara.png">
+            <strong>Role</strong>: Anthropologist and Researcher 
+            </p>
+              <hr />
+              <img src="img/about_me.jpg" />
             <br />
             </p>
             <hr />
@@ -80,17 +83,16 @@
             </div>
           </div>
         </div>
-      </div>
+			</div>-->
       <div class="row">
         <div class="large-12 columns">
-          <div class="panel panel-white"> -->
+          <div class="panel panel-white">
+            <h4>About me</h4>
+               <p>
               <p>
-              My father grew up surrounded by doctors. He made the first big change when he decided to be a lawyer. My mom was a librarian who left her hometown following the love. My sister was born. She is a rad artist living in Berlin <a href="http://mariacelina.com/" > Celina Gonzalez Sueyro </a> definitely 90% creative. I was born four years later in a beach town near Buenos Aires with a more equal distribution of father - technical and mom- creative skills. 
-              At the age of 10 I was reading encyclopedias, sci-fi magazines and books about ancient societies. At the age of 15 I projected  my future around Anthropology and the study of history of human beings in different societies. </p>
-              <p>I have worked for corporations, non-profits and consulting agencies performing ethnographic research to understand fundamental user behavior through observation and in depth interviews, among other qualitative methods. </p>
-              <p>Traveling and living abroad was one of my goals in life. I visited many countries where I encountered amazing people, unforgettable stories and overall a desire to record and spread ordinary stories of extraordinary people I met in my life. This long-term trip brought me to San Francisco where I live with my husband. 
+              My father grew up surrounded by doctors. He made the first big change when he decided to be a lawyer. My mom was a librarian who left her hometown for love. My sister was born. She is a rad artist living in Berlin (mariacelina.com) definitely 90% creative. I was born four years after my sister in a beach town near Buenos Aires called Mar del Plata with a more equal distribution of father - technical and mom- creative skills. </p>
+              <p> At the age of 10 I was reading encyclopedias, sci-fi magazines and books about ancient societies. At the age of 15 I built my future around anthropology and the study of history of human beings in different societies and the practice of real traveling. Traveling and living abroad was one of my goals. I encounter amazing people, unforgettable stories and overall a desire to record and spread ordinary stories of extraordinary people I met in my life. This long-term trip brought me to San Francisco where i live with my husband now. 
             </p>
-            <!--
             <hr />
             <!--
             <h4>Process: methods and techniques</h4>
@@ -123,8 +125,7 @@
       <br />
       <br />
       <br />
-
-    </div>
+		</div>
     <div class="large-4 columns">
       <h6>Projects</h6>
       <p>
@@ -165,8 +166,8 @@
       </p>
     </div>
 
-    
-  </div>
+		
+	</div>
 
   <script>
   document.write('<script src=' +
